@@ -1,0 +1,27 @@
+========== DISK REPORT ==========
+Wed Jul  8 01:59:19 IST 2026
+
+Disk Usage
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    12Gi    96Gi    11%    459k  1.0G    0%   /
+devfs            207Ki   207Ki     0Bi   100%     725     0  100%   /dev
+/dev/disk3s6     228Gi    20Ki    96Gi     1%       0  1.0G    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   8.4Gi    96Gi     9%    1.5k  1.0G    0%   /System/Volumes/Preboot
+/dev/disk3s4     228Gi   3.4Mi    96Gi     1%      64  1.0G    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   482Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   5.7Mi   482Mi     2%      31  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   1.1Mi   482Mi     1%      75  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     228Gi   111Gi    96Gi    54%    836k  1.0G    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+
+Largest Directories
+ 22G	/Users/rohantundalwar/Library
+ 13G	/Users/rohantundalwar/Downloads
+2.7G	/Users/rohantundalwar/Aanaya
+2.0G	/Users/rohantundalwar/Desktop
+153M	/Users/rohantundalwar/Music
+127M	/Users/rohantundalwar/AndroidStudioProjects
+1.9M	/Users/rohantundalwar/ai image.png
+264K	/Users/rohantundalwar/Movies
+8.0K	/Users/rohantundalwar/Public
+8.0K	/Users/rohantundalwar/Pictures
