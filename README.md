@@ -1,41 +1,63 @@
-# Disk Usage Analyzer
+# 💽 Disk Usage Analyzer
 
-A Bash-based Linux disk usage analyzer that generates storage usage reports and identifies the largest directories on the system.
-
----
-
-# 📌 Overview
-
-Disk Usage Analyzer is a Linux administration tool built using Bash scripting. It helps monitor disk usage, available storage, mounted file systems, and the largest directories, making it useful for basic system administration and DevOps learning.
+A Bash-based Disk Usage Analyzer that helps Linux users monitor disk usage, identify large files/directories, check free space, and generate reports.
 
 ---
 
-# 🚀 Features
+## 📸 Screenshots
 
-- Display disk usage statistics
-- Show mounted file systems
-- Identify largest directories
-- Generate disk usage reports
-- Simple menu-driven interface
+### Main Menu
+
+![Main Menu](screenshots/main-menu.png)
 
 ---
 
-# 🛠 Technologies
+### Sample Output
+
+![Output](screenshots/output.png)
+
+---
+
+## 📌 Overview
+
+Disk Usage Analyzer is a Linux Bash scripting project that provides useful disk usage statistics through a menu-driven interface. It helps system administrators and DevOps engineers quickly identify storage consumption and monitor available disk space.
+
+---
+
+## 🚀 Features
+
+- Show Disk Usage
+- Largest 10 Files
+- Largest 10 Directories
+- Check Free Disk Space
+- Generate Disk Usage Report
+- Menu-driven Interface
+
+---
+
+## 🛠 Technologies
 
 - Bash
-- Linux
+- Linux Commands
 - Shell Scripting
+- Git
+- GitHub
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```
+```text
 disk-usage-analyzer/
 │
 ├── scripts/
 │   └── analyzer.sh
 │
+├── screenshots/
+│   ├── main-menu.png
+│   └── output.png
+│
+├── docs/
 ├── disk_report.txt
 ├── README.md
 └── LICENSE
@@ -43,37 +65,28 @@ disk-usage-analyzer/
 
 ---
 
-# 📚 Linux Commands Used
+## ▶️ How to Run
 
-- df
-- du
-- sort
-- head
-- awk
-- echo
-
----
-
-# ▶️ Usage
-
-```
+```bash
 chmod +x scripts/analyzer.sh
-./scripts/analyzer.sh
+cd scripts
+./analyzer.sh
 ```
 
 ---
 
-# 🎯 Learning Objectives
+## 🎯 Use Cases
 
-- Disk monitoring
-- Linux administration
-- Bash scripting
-- Report generation
+- Linux System Administration
+- Disk Space Monitoring
+- Server Maintenance
+- DevOps Practice
+- Learning Bash Scripting
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Rohan Tundalwar**
 
-DevOps Engineer (Learning)
+Aspiring DevOps Engineer | Linux | Bash | Git | AWS
